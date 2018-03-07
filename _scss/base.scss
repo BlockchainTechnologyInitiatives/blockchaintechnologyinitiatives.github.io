@@ -1,0 +1,44 @@
+
+body {
+	margin: 0;
+	padding: 0;
+
+	font-family: 'Raleway', sans-serif;
+	color: #333333;
+}
+
+
+
+header {
+	background-color: white;
+	margin-bottom: 0;
+	
+	.navbar-brand {
+		font-weight: 800;
+	}
+
+	a {
+		text-decoration: none;
+		text-transform: uppercase;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 600;
+		transition-duration: 0.3s;
+	}
+	a:hover {
+		color: #0a6c85;
+		text-decoration: underline;
+	}
+}
+
+#banner {
+	background-image: url('/res/Houston_KatieHaugland_CreativeCommons.jpg');
+	background-size: cover;
+	background-position-x: 50%;
+	background-position-y: 50%;
+	background-attachment: scroll;
+	background-clip: border-box;
+	h1, p {
+		color: white;
+		text-shadow: rgb(0, 0, 0) 0px 2px 5px;
+	}
+}
